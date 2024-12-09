@@ -11,7 +11,7 @@ A Python implementation which can generate slides via conversation. It has two p
     
     -- correct question and sql pair will be added to vector db (for future usage)
 
-(2) strcuted data to powerpoint slides
+(2) structed data to powerpoint slides
 
     -- use llm to generate python script and call python-pptx to create slides
     
