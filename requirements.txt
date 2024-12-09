@@ -1,0 +1,6 @@
+python-pptx
+pandas
+sentence-transformers
+faiss-cpu
+pysqlite3
+openai==1.3.7
