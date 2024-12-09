@@ -4,6 +4,7 @@
 ppt agent which can generate powerpoint from user conversation. The key idea is how to create prompt to get reasonable answers from llm.
 
 A Python implementation which can generate slides via conversation. It has two parts:
+
 (1) chat to sql and then get structed data from database, such as sqlite, mysql, etc
 
     -- use faiss as vector db to find the simlar question and sql script pair to construct prompt for llm (refer to RAG)
