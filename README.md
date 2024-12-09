@@ -49,7 +49,8 @@ python test_ppt_generator.py
 ### Example Data
 
 Chinook.sqlite from Vanna
-vector data (similar search using faiss)
+
+faiss vector data (for similar search)
 
 
 ### Samples
