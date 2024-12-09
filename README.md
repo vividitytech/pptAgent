@@ -46,9 +46,13 @@ run the following script for test (you can change the user_message)
 python test_ppt_generator.py
 ```
 
+need to update configs.py to get api_key to access llm.
+
 ### Example Data
 
 Chinook.sqlite from Vanna
+
+template.pptx ppt template
 
 faiss vector data (for similar search)
 
