@@ -5,11 +5,15 @@ ppt agent which can generate powerpoint from user conversation. The key idea is 
 
 A Python implementation which can generate slides via conversation. It has two parts:
 (1) chat to sql and then get structed data from database, such as sqlite, mysql, etc
+
     -- use faiss as vector db to find the simlar question and sql script pair to construct prompt for llm (refer to RAG)
+    
     -- correct question and sql pair will be added to vector db (for future usage)
 
 (2) strcuted data to powerpoint slides
+
     -- use llm to generate python script and call python-pptx to create slides
+    
     -- retry will be used to guide llm to regenerate python script
 
 ### Usage
