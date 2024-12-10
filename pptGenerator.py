@@ -10,8 +10,6 @@ import re
 class PPTGenerator(DataBase):
 
     def __init__(self, config=None):
-        #FAISS.__init__(self,  config=config)
-        #OpenAIChat.__init__(self, config={'api_key': args.api_key, 'model': args.model_name})
         if config is None:
             config = {}
         super().__init__(config=config.get("dbconfig", None))
